@@ -1,0 +1,56 @@
+.App{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.App h1 {
+  margin-bottom: 0;
+  border-color:#030a32 ;
+  color: 	#C0C0C0;
+  font-size: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 6s steps(10) infinite alternate,
+  blink 2000ms steps(10) infinite normal;
+  border-right: 5px solid 	#C0C0C0;
+}
+.App span p {
+  font-size: 30px;
+  margin-left: 5px;
+
+}
+.App span {
+  display:  flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.App span a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 5px;
+  color: 	#808080;
+}
+.App span a:hover{
+  color: #DCDCDC;
+}
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: 	#C0C0C0;
+  }
+  to {
+    border-color: transparent;
+  }
+}

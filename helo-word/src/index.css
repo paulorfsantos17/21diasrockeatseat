@@ -1,0 +1,5 @@
+body {
+  font-family: "bebas neue", sans-serif ;
+  background: rgb(7,0,129);
+  background: linear-gradient(90deg, rgba(7,0,129,1) 0%, rgba(39,39,194,1) 48%, rgba(0,10,69,1) 100%);
+}
