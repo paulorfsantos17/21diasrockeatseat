@@ -1,0 +1,27 @@
+.App{
+  display: flex;
+  height: 100vh;
+  background: rgb(66,129,0);
+  background: linear-gradient(90deg, rgba(66,129,0,1) 0%, rgba(42,186,39,1) 43%, rgba(39,194,44,1) 100%);
+  justify-content: center;
+  align-items: center;
+}
+
+.App button {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  border-radius: 12px;
+  border: 2px solid #FFF;
+  background-color: transparent;
+  color: #FFF;
+  animation: grow 2s alternate infinite ease-in;
+}
+
+
+
+
+@keyframes grow {
+  0%   {transform: scale(.8);}
+  100% {transform: scale(1.2);}
+}
