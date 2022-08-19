@@ -1,0 +1,21 @@
+.button{
+  grid-column: span 1;
+  background-color: #FFF;
+  margin: 5px;
+  border: none;
+  font-size: 2.5em;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+}
+
+.button.triplo{
+  grid-column: span 3;
+}
+
+.button.doublo{
+  grid-column: span 2;
+}
+
+.button.operation{
+  background-color: #D3D3D3;
+}
