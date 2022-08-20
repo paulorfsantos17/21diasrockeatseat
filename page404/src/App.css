@@ -1,38 +1,58 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background: rgb(43,134,0);
+  background: linear-gradient(90deg, rgba(43,134,0,1) 0%, rgba(72,221,0,1) 50%, rgba(43,134,0,1) 100%);
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  
+}
+
+.App h1{
+  font-size: 17rem;
+  color: #86E559;
+  text-shadow: 10px 7px #2B8600;
+  
+}
+
+.App .content-text{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  height: 50vh;
+  padding: 25px;
+  border: 5px solid #6ADF32 ;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px #2B8600;
 }
 
-.App-link {
-  color: #61dafb;
+.App p{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1A2913;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App button{
+  display: block;
+  height: 40px;
+  width: 150px;
+  background-color: #86E559;
+  color: #1A2913;
+  border: 1px solid #1A2913;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  font-family: 'Rubik Mono One', sans-serif;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
 }
+
+.App button:hover{
+  color: #5c5c5c;
+  border: 1px solid #cfd1ce;
+  transform: scale(1.1)
+}
+
