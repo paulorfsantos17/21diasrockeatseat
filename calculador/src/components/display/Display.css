@@ -8,5 +8,6 @@
   padding: 5px;
   font-size: 2.5em;
   border-radius: 12px;
+  overflow: hidden;
 
 }
